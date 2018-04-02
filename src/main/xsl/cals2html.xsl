@@ -15,6 +15,8 @@
   extension-element-prefixes="xd"
   >
   
+  <xsl:import href="dependency://eu.els.lib+myXslLib/myLib.xsl"/>
+  
   <xsl:import href="normalizeCalsTable.xsl"/>
   
   <xd:doc scope="stylesheet">
